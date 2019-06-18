@@ -1,0 +1,28 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "deploy": "echo Current branch: $TRAVIS_BRANCH",
+    "build": "",
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaIij/Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaIij/Proxy/issues"
+  },
+  "homepage": "https://github.com/VitaIij/Proxy#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "now": "^14.0.0"
+  },
+  "dependencies": {}
+}
