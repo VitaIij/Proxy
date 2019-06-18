@@ -9,4 +9,4 @@ script:
   - npm run lint
   - npm run test
   - npm run deploy
-- now --token=$now_proxy_token
+  - now --token=$now_proxy_token
